@@ -21,7 +21,7 @@ try:
 except:
     print('Zero division error')
 
-if(st.button('Calculaate BMI')):
+if(st.button('Calculate BMI')):
     st.write('Your BMI index is {}'.format(round(bmi)))
 
     if bmi<16:
